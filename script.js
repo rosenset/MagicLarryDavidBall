@@ -76,4 +76,7 @@ function newQuote() {
 
 window.onload = function () {
   document.getElementById("my_audio").play();
+  document.body.addEventListener("mousemove", function () {
+    audio.play();
+  });
 };
