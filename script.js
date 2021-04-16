@@ -74,7 +74,7 @@ function newQuote() {
   document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
 }
 
-window.onload = function () {
+window.onclick = function () {
   document.getElementById("my_audio").play();
   document.body.addEventListener("mousemove", function () {
     audio.play();
